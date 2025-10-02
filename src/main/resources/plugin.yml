@@ -1,0 +1,20 @@
+name: Sit
+main: com.syxles.sit.SitPlugin
+version: 1.0.0
+api-version: '1.21'
+authors: [syxles]
+commands:
+  sit:
+    description: "Sit or standup yourself, or reload the config with /sit reload"
+    usage: "/sit [reload]"
+    permission: sit.use
+permissions:
+  sit.use:
+    description: "Authorize the use of /sit"
+    default: true
+  sit.reload:
+    description: "Authorize the reloading of the configuration via /sit reload"
+    default: op
+  sit.bypasscooldown:
+    description: "Ignore the cooldown"
+    default: op

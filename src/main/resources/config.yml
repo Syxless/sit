@@ -1,0 +1,25 @@
+# Configuration
+cooldown-seconds: 3
+prevent-in-liquid: true
+prevent-while-gliding: true
+prevent-while-swimming: true
+prevent-while-falling: true
+# Blacklist of blocks where sitting is not allowed
+blacklist-blocks:
+  - LAVA
+  - WATER
+  - MAGMA_BLOCK
+  - CAMPFIRE
+  - SOUL_CAMPFIRE
+  - CACTUS
+  - FIRE
+  - SOUL_FIRE
+  - SWEET_BERRY_BUSH
+  - POWDER_SNOW
+  - COPPER_BULB
+# Options to automatically make players stand up
+auto-unsit:
+  on-sneak: true
+  on-teleport: true
+  on-world-change: true
+  on-quit: true
